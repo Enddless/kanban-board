@@ -1,0 +1,20 @@
+.main {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px;
+    background: #0079BF;
+
+   /* height: auto;*/
+    max-height:590px;
+    flex-grow:1;
+
+}
+
+@media screen and (max-width: 338px) {
+    .main {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      overflow-y: auto;
+    }
+}

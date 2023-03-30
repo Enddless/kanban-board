@@ -1,0 +1,76 @@
+.form {
+    display:flex;
+    flex-direction: column;
+    margin-top:30px;
+}
+.inputAdd::placeholder,
+.textareaAdd::placeholder {
+    font-family: "Roboto";
+}
+.inputAdd,
+.textareaAdd {
+    
+    font-size: 18px;
+    padding:7px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin:7px 0;
+    outline:none;
+    border: none;
+}
+.inputAdd:focus,
+.textareaAdd:focus {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+} 
+.textareaAdd {
+    resize:none;
+    height:80px;
+}
+.btn-submit {
+    width: 102px;
+    height: 29px;
+    margin:10px auto;
+    background: #0079BF;
+    border-radius: 5px;
+    border:none;
+
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+form::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+form::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position:relative;
+    left:0;
+}
+ 
+form::-webkit-scrollbar-thumb {
+    background-color: #CBCBCB;
+    border-radius: 5px;
+    height:52px;
+}
+@media screen and (max-width: 338px) {
+    .form {
+        margin-top:10px;
+    }
+    .inputAdd,
+    .textareaAdd {
+        font-size: 15px;
+    }
+    .btn-submit {
+        height: 20px;
+        margin:10px auto;    
+        font-size: 15px;
+    }
+}
+
+

@@ -1,0 +1,11 @@
+.button-add {
+    font-size: 18px;
+    color: #5E6C84;
+    border:none;
+    background: transparent;
+    text-align: left;
+}
+.button-add:hover {
+    cursor:pointer;
+    color: #03045e;
+}
